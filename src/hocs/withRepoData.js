@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 export default function withRepoData(username) {
   return WrappedComponent => {
     return props => {
+      console.log(props.oi);
       const [data, setData] = useState([]);
       const [loading, setLoading] = useState(true);
 

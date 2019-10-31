@@ -6,7 +6,7 @@ import RepoList from './components/RepoList';
 function App() {
   return (
     <div className="App">
-      <RepoList />
+      <RepoList oi={'hi'} />
     </div>
   );
 }
